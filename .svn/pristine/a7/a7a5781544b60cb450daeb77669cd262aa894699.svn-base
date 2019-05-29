@@ -1,0 +1,102 @@
+Homework 1 Evaluation
+CMSC 15200 Winter 2019
+
+=== correctness:
+
+disjoint
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+contains
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+poly_perim
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+axis_box
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+pythag
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+triangle
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+num_zeros
+- correct logic       2 / 2
+- is well tested      2 / 2
+
+num_ones
+- correct logic       2 / 2
+- is well tested      2 / 2
+
+show_binary
+- correct logic       4 / 4
+- is well tested      2 / 2
+
+correct submission (all files present and correctly named and situated)
+                      4 / 4
+			  
+>>> correctness subtotal: 54 / 54
+
+
+=== style:
+
+code layout is clean and idiomatic 9 / 10
+
+identifiers are well named 9 / 9
+
+code is written clearly, avoiding unnecessary complexity 8 / 9
+
+programs are well decomposed into helpers where appropriate 9 / 9
+
+code avoids blatant inefficiencies 9 / 9
+
+>>> style subtotal:  44 / 46
+
+
+=== The new, as of this quarter, scoring formula is given here.
+
+The following scoring formula has the effect of scaling style by
+correctness. This is so a student cannot, for example, write only one
+function out of six and earn full style points.
+
+Let c = correctness points.
+Let p = correctness percentage.
+Let s = style points.
+The total score is (c + p*s), rounded to the nearest integer.
+
+For example, if a student earns 32/64 correctness points and 24/36
+style points, the total score is 32 + 0.5 * 24 = 32 + 12 = 44.
+
+
+// _total-score_  98 / 100
+
+// graded by Hazim Avdal
+
+Grader's Comments:
+
+1) Code layout: please limit all lines to a maximum of 80 characters and
+adapt a consistent indentation style. You may find this style guide helpful:
+
+https://www.classes.cs.uchicago.edu/archive/2017/summer/15200-1/
+materials/Style_Guide.pdf  
+
+2) Unnecessary complexity: the logic of your algorithms is sometimes hard to
+follow. For example, your opt_point is, as you commented, complicated. You 
+could have decomposed it into helper functions. 
+
+You have done a really good job with testing. The code for tests was a bit
+messy, though. I would suggest making helper functions (asserts) in the
+future so you do not have to write these many lines again. I really liked
+your defining "true" and "false"--it made your code a lot easier to read. 
+
+Thanks for all the helpful comments and for including the links for the online
+resources you consulted. Very well done!
+
+

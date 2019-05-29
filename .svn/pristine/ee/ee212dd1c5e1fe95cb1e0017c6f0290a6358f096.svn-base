@@ -1,0 +1,76 @@
+Lab 1 Evaluation
+CMSC 15200 Winter 2019
+
+=== correctness:
+
+fact
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+expt
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+tpi
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+tex
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+tsin
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+tcos
+- correct base case       4 / 4
+- correct recursive case  4 / 4
+- is well tested          2 / 2
+
+correct submission (all files present and correctly named and situated)
+                          4 / 4
+			  
+
+>>> correctness subtotal:  64 / 64
+
+
+=== style:
+
+code layout is clean and idiomatic 10 / 12
+
+identifiers are well named 12 / 12
+
+code is written clearly, avoiding unnecessary complexity 12 / 12
+
+programs are well decomposed into helpers where appropriate: N/A this week
+
+code avoids blatant inefficiencies: N/A this week
+
+
+>>> style subtotal: 34 / 36
+
+
+=== The new, as of this quarter, scoring formula is given here.
+
+The following scoring formula has the effect of scaling style by
+correctness. This is so a student cannot, for example, write only one
+function out of six and earn full style points.
+
+Let c = correctness points.
+Let p = correctness percentage.
+Let s = style points.
+The total score is (c + p*s), rounded to the nearest integer.
+
+For example, if a student earns 32/64 correctness points and 24/36
+style points, the total score is 32 + 0.5 * 24 = 32 + 12 = 44.
+
+
+// _total-score_  98 / 100
+
+// graded by Olivia Weng
